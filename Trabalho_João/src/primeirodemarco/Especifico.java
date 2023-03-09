@@ -4,7 +4,7 @@ public class Especifico {
 
 	public static boolean especifico(int[] sequencia, int esp, int i, int t) {
 		if (sequencia[i] != esp && i < t) {
-			return procurarNumero(sequencia, esp, i + 1, t);
+			return específico (sequencia, esp, i + 1, t);
 		} else if (sequencia[i] != esp && i >= t) {
 			return false;
 		} else {
